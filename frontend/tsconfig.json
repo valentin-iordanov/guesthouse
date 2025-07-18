@@ -18,9 +18,9 @@
         "name": "next"
       }
     ],
-    "baseUrl": ".", // This is critical to make aliases work
+    "baseUrl": ".",
     "paths": {
-      "@/*": ["src/*"]
+      "@/*": ["*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
